@@ -1,0 +1,26 @@
+.y{
+display: -webkit-flex; 
+display: flex;
+}
+.y .x{    
+-webkit-flex:1 1 auto; 
+flex:1 1 auto;
+}
+.x{
+display: -webkit-flex;
+display: flex;
+-webkit-flex-flow: column;
+flex-flow: column;
+}
+.x .y{
+-webkit-flex:1 1 auto; 
+flex:1 1 auto;
+}
+.barra{
+color:#E3F1FB;
+border:solid;
+}
+#content{
+border:solid;
+border-color:#E3F1FB;
+}
