@@ -4,108 +4,18 @@
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible" content="IE=edge,chrome=1'>
 <meta name='viewport' content='width=device-width,initial-scale=1'>
-
 <link rel='shortcut icon' href='https://tentthenet.github.io/img/icons/tentthenet.png'/>
 <title> Tent the Net </title>
 
-<link rel='stylesheet' type='text/css' href='style/smartphone.css' media='all and (max-width:320px)'>
-<link rel='stylesheet' type='text/css' href='style/tablet.css' media='all and (min-width:321px) and (max-width:960px)'>
-<link rel='stylesheet' type='text/css' href='style/desktop.css' media='all and (min-width:961px)'>
-<style>
-body{
-border:double;
-border-color:#E3F1FB;
-}
-#logo{
-margin-right:30px;
-background-repeat:no-repeat;
-background-image:url(https://tentthenet.github.io/img/logos/title/tentthenet.png);
-width:150px;
-height:150px;
-}
-.faixa{
-background-color:#E3F1FB;
-border:double;
-border-color:#E3F1FB;
+<link rel='stylesheet' type='text/css' href='css/smartphone.css' media='all and (max-width:320px)'>
+<link rel='stylesheet' type='text/css' href='css/tablet.css' media='all and (min-width:321px) and (max-width:960px)'>
+<link rel='stylesheet' type='text/css' href='css/desktop.css' media='all and (min-width:961px)'>
 
-text-align:center;
-}
-.link{
-color:blue;
-text-decoration:underline; 
-}
-#index{
-font-family:Sawasdee;
-}
-footer{
-font-size:12px;
-padding-top:5px;
-padding-bottom:5px;
-}
-#login{
-background-repeat:no-repeat;
-background-image:url();
-width:32px;
-height:32px;
-border:none;
-background-color:#E3F1FB;
-margin-right:5px;
-margin-top:5px;
-}
-#rodap{
-position:fixed;
-bottom:0;
-width:100%;
-margin-left:0%;
-border:double;
-border-color:#E3F1EC;
-}
-</style>
-
-<script>
-function github_tentthenet(){
-window.open("https://github.com/tentthenet");
-}
-function twt_tentthenet(){
-window.open("https://twitter.com/tentthenet/");
-}
-</script>
+<link rel='stylesheet' type='text/css' href='css/style.css'>
+<script src='js/jr.js'> </script>
+<script src='js/layout.js'> </script>
 </head>
-<body>
-<div id="container">
-<header>
-<div class='faixa'>
-<a href='http://tentthenet.org' id='index' class='link' title='http://tentthenet.org'>
-tentthenet.org
-</a>
-</div>
-<a href='http://tentthenet.org' class='link' title='http://tentthenet.org'>
-<div class='x' id='logo'></div>
-</a>
-</header>
-<div id='content' class='y'>
-</div>
-<footer class='faixa' id='rodap'>
-<footer class='x'>
-<span class='y'>
-<form name='form1' method='post' action='https://tendadateia-sistemarcio.getup.io/logar.php'>
-<table>
-<tr>
-<td><input type='submit' id='login' value=''/></td>
-<td><input type='password' name='password' size='15' /></td>
-</tr>
-</table>
-</form></span>
-<span class='y'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class='y'>E-Mail: &nbsp;<span class='link' href='mailto:mail@tentthenet.org'>mail@tentthenet.org</span></span>
-<span class='y'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class='y'>Github: &nbsp;<span class='link' onClick='github_tentthenet()' title='https://github.com/tentthenet'> Tent the Net </span></span>
-<span class='y'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class='y'>Twitter: &nbsp;<span class='link' onClick='twt_tentthenet()' title='https://twitter.com/tentthenet/'> @tentthenet </span></span>
-<span class='y'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-</footer>
-</footer>
-</div>
+<body onLoad='jrun()' id='body'>
+<div id='tags'></div>
 </body>
 </html>
-
