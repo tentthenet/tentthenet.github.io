@@ -9,10 +9,10 @@ border:none;
 }
 .mybody{
 
-background-image:url(fundo2.png);
+background-image:url();
 }
 #header{
-background-color: lightblue;
-background-image:url(fundo3.png);
+background-color: white;
+background-image:url();
 }
 
