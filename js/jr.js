@@ -33,7 +33,7 @@ document.getElementById('index').style.color= "blue";
 document.getElementById('index').style.textDecoration= "underline";
 
 
-//document.getElementById('myreader').style.backgroundColor= "#E3F1EC";
+document.getElementById('myreader').style.backgroundColor= "#E3F1FB";
 document.getElementById('myreader').style.backgroundImage= "url()";
 document.getElementById('myreader').style.paddingTop = "10px";
 document.getElementById('myreader').style.paddingLeft = "10px";
