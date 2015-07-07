@@ -69,6 +69,5 @@ document.getElementById('footer').innerHTML = ""
 "<footer> <iframe class='mybody' id='myfooter' scrolling='no' src='footer.html'></iframe> </footer>"
 +
 "";
-document.getElementById('myfooter').style.width = "100%";
 }
 //
