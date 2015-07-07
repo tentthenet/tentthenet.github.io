@@ -56,10 +56,6 @@ document.getElementById('mycontent').style.height = "500px";
 }
 function footer(){
 
-document.getElementById('footer').style.bottom = "0";
-document.getElementById('footer').style.width = "100%";
-document.getElementById('footer').style.position = "fixed";
-
 document.getElementById('footer').style.paddingTop = "10px";
 document.getElementById('footer').style.paddingLeft = "10px";
 document.getElementById('footer').style.paddingRight = "10px";
